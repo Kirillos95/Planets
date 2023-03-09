@@ -8,6 +8,41 @@ const routes = [
     component: HomeView,
   },
   {
+    path: "/mercury",
+    name: "mercury",
+    component: () => import("../views/MercuryV.vue"),
+  },
+  {
+    path: "/venus",
+    name: "venus",
+    component: () => import("../views/VenusV.vue"),
+  },
+  {
+    path: "/earth",
+    name: "earth",
+    component: () => import("../views/EarthV.vue"),
+  },
+  {
+    path: "/mars",
+    name: "mars",
+    component: () => import("../views/MarsV.vue"),
+  },
+  {
+    path: "/jupiter",
+    name: "jupiter",
+    component: () => import("../views/JupiterV.vue"),
+  },
+  {
+    path: "/saturnus",
+    name: "saturnus",
+    component: () => import("../views/SaturnusV.vue"),
+  },
+  {
+    path: "/uranus",
+    name: "uranus",
+    component: () => import("../views/UranusV.vue"),
+  },
+  {
     path: "/about",
     name: "about",
     // route level code-splitting
