@@ -16,7 +16,11 @@
         глазах человека. Несмотря на то, что порой Уран различим невооружённым
         глазом, более ранние наблюдатели принимали его за тусклую звезду.
       </p>
-      <button>Читать дальше</button>
+      <button
+        onclick="document.location='https://ru.wikipedia.org/wiki/%D0%A3%D1%80%D0%B0%D0%BD'"
+      >
+        Go to wikipedia
+      </button>
     </div>
   </div>
 </template>

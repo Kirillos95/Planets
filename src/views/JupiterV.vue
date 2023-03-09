@@ -14,7 +14,11 @@
         месопотамской, вавилонской, греческой и других. Современное название
         Юпитера происходит от имени древнеримского верховного бога-громовержца.
       </p>
-      <button>Читать дальше</button>
+      <button
+        onclick="document.location='https://ru.wikipedia.org/wiki/%D0%AE%D0%BF%D0%B8%D1%82%D0%B5%D1%80'"
+      >
+        Go to wikipedia
+      </button>
     </div>
   </div>
 </template>

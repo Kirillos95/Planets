@@ -20,7 +20,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #fafbfb;
+  background-color: #070707;
+  background-attachment: fixed;
 }
 
 nav {
@@ -28,7 +30,7 @@ nav {
 
   a {
     font-weight: bold;
-    color: #2c3e50;
+    color: #f6f6f7;
 
     &.router-link-exact-active {
       color: #42b983;

@@ -15,7 +15,11 @@
         красноватого оттенка поверхности, придаваемого ей минералом маггемитом —
         γ-оксидом железа(III).Перейти к разделу «#Грунт»
       </p>
-      <button>Читать дальше</button>
+      <button
+        onclick="document.location='https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%80%D1%81'"
+      >
+        Go to wikipedia
+      </button>
     </div>
   </div>
 </template>

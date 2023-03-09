@@ -13,7 +13,11 @@
         любви Венеры[7]. По ряду характеристик — например, по массе и размерам —
         Венера считается «сестрой» Земли.
       </p>
-      <button>Читать дальше</button>
+      <button
+        onclick="document.location='https://ru.wikipedia.org/wiki/%D0%92%D0%B5%D0%BD%D0%B5%D1%80%D0%B0'"
+      >
+        Go to wikipedia
+      </button>
     </div>
   </div>
 </template>

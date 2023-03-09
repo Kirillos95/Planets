@@ -9,8 +9,8 @@
       <p>Крутецкая метал-банда!!!</p>
       <div>
         <a
-          target="_blank"
           href="https://musify.club/track/saturnus-i-long-612096"
+          target="_blank"
           >Рекомендую послушать!</a
         >
       </div>

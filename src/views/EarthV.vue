@@ -15,7 +15,11 @@
         научно-популярной литературе могут использоваться синонимические термины
         — мир, голубая планета.
       </p>
-      <button>Читать дальше</button>
+      <button
+        onclick="document.location='https://ru.wikipedia.org/wiki/%D0%97%D0%B5%D0%BC%D0%BB%D1%8F'"
+      >
+        Go to wikipedia
+      </button>
     </div>
   </div>
 </template>
