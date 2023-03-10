@@ -38,6 +38,11 @@ const routes = [
     component: () => import("../views/SaturnusV.vue"),
   },
   {
+    path: "/neptune",
+    name: "neptune",
+    component: () => import("../views/NeptuneV.vue"),
+  },
+  {
     path: "/uranus",
     name: "uranus",
     component: () => import("../views/UranusV.vue"),

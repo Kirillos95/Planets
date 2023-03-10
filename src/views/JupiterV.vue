@@ -3,6 +3,7 @@
     <div class="conteiner">
       <h1>Jupiter</h1>
       <img
+        class="container_image"
         src="https://getwalls.io/media/large/2020/04/jupiter-8k-hd-wallpapers-1920x1080-download-large-1037317917.jpg"
         alt="Jupiter"
       />
@@ -22,3 +23,8 @@
     </div>
   </div>
 </template>
+<style>
+.container_image {
+  border-radius: 50%;
+}
+</style>

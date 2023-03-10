@@ -8,7 +8,8 @@
     <router-link to="/mars">Mars</router-link> |
     <router-link to="/jupiter">Jupiter</router-link> |
     <router-link to="/saturnus">Saturnus</router-link> |
-    <router-link to="/uranus">Uranus</router-link>
+    <router-link to="/uranus">Uranus</router-link> |
+    <router-link to="/neptune">Neptune</router-link>
 
     <router-view />
   </nav>
@@ -21,8 +22,7 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #fafbfb;
-  background-color: #070707;
-  background-attachment: fixed;
+  background-image: url(https://images.wallpaperscraft.com/image/single/galaxy_glow_stars_227799_1920x1200.jpg);
 }
 
 nav {
@@ -36,5 +36,8 @@ nav {
       color: #42b983;
     }
   }
+}
+img {
+  border-radius: 60%;
 }
 </style>
